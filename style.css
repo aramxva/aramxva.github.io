@@ -107,6 +107,10 @@ body {
   .header img {
     width: 150px;
   }
+  body{
+      background-image: url('us2.png');
+transform: scaleY(-1);
+  }
   .mainContent button {
     width: 250px;
     font-size: 18px;
