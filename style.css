@@ -9,7 +9,10 @@ body {
   display: flex;
   height: 100vh;
   justify-content: center;
-  background-image: url('us2.png');
+}
+body::before {
+   background-image: url('us2.png');
+   height: 100vh;
 }
 
 .container {
@@ -107,7 +110,7 @@ body {
   .header img {
     width: 150px;
   }
-  body{
+  body::before{
       background-image: url('us2.png');
 transform: scaleY(-1);
   }
